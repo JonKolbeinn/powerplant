@@ -1,0 +1,24 @@
+[server]
+# The host address to bind the server to
+host = "127.0.0.1"
+
+# The port number to listen on
+port = 8080
+max_connections = 100
+
+[pow]
+# Default difficulty for Proof of Work
+default_difficulty = 10
+
+# Maximum allowed difficulty
+max_difficulty = 100
+
+[logging]
+# Log level: trace, debug, info, warn, error
+level = "info"
+
+# Whether to log to a file
+log_to_file = false
+
+# Log file path (only used if log_to_file is true)
+log_file = "pow_server.log"
